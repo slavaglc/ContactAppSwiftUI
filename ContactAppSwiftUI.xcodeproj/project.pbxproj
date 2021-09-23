@@ -11,6 +11,8 @@
 		F94C388226FCEBB2002496C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C388126FCEBB2002496C2 /* ContentView.swift */; };
 		F94C388426FCEBB7002496C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94C388326FCEBB7002496C2 /* Assets.xcassets */; };
 		F94C388726FCEBB7002496C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94C388626FCEBB7002496C2 /* Preview Assets.xcassets */; };
+		F94C388F26FCF76E002496C2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C388E26FCF76E002496C2 /* DataManager.swift */; };
+		F94C389126FCF785002496C2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C389026FCF785002496C2 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F94C388326FCEBB7002496C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94C388626FCEBB7002496C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F94C388826FCEBB7002496C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94C388E26FCF76E002496C2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F94C389026FCF785002496C2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				F94C387F26FCEBB2002496C2 /* ContactAppSwiftUIApp.swift */,
 				F94C388126FCEBB2002496C2 /* ContentView.swift */,
+				F94C388E26FCF76E002496C2 /* DataManager.swift */,
+				F94C389226FCF79F002496C2 /* Models */,
 				F94C388326FCEBB7002496C2 /* Assets.xcassets */,
 				F94C388826FCEBB7002496C2 /* Info.plist */,
 				F94C388526FCEBB7002496C2 /* Preview Content */,
@@ -67,6 +73,14 @@
 				F94C388626FCEBB7002496C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F94C389226FCF79F002496C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F94C389026FCF785002496C2 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94C388226FCEBB2002496C2 /* ContentView.swift in Sources */,
+				F94C388F26FCF76E002496C2 /* DataManager.swift in Sources */,
+				F94C389126FCF785002496C2 /* Person.swift in Sources */,
 				F94C388026FCEBB2002496C2 /* ContactAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
